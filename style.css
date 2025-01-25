@@ -181,6 +181,63 @@ border-radius: 5px;
   border-radius: 50%;
 }
 
+
+.slide_sec_tp{
+background: #ddeaf8;
+}
+
+.custom-marquee-container {
+  overflow: hidden;
+  padding: 16px 0;
+}
+
+.custom-marquee {
+  display: flex;
+  gap: 1.5rem;
+  animation: custom-slide 60s linear infinite;
+  white-space: nowrap;
+  width: max-content;
+}
+
+.custom-marquee-item {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+  background: #ffffff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.custom-marquee-item span {
+  color: #2F84E1;
+}
+
+@keyframes custom-slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+.h1_title_css{
+    color: #fff;
+    font-size: 48px;
+}
+.page_hero p{
+  font-size: 20px;
+  color: #ddd;
+  margin: 20px 0;
+}
+.page_hero_sec {
+  padding: 120px 0px 120px 0px;
+  overflow: hidden;
+}
+
+
 @media screen and (max-width: 1200px){
     .addresstop{
       display: none!important;
@@ -197,6 +254,9 @@ border-radius: 5px;
     }
     .banner-section{
       margin-top: 120px;
+    }
+    .page_hero_sec {
+      padding-top: 220px;
     }
 }
 
@@ -265,6 +325,9 @@ border-radius: 5px;
 }
  .second_phone{
   display: none!important;
+}
+.custom-marquee {
+  animation: custom-slide 50s linear infinite;
 }
 }
 
