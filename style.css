@@ -11,6 +11,25 @@ Dark: #d53111 #a6260d  #761b09  #471006  #180502
 Light: #ee4b2a #f69b89  #f9c3b8  #fdebe7
 */
 
+.topbar_main{
+  background: #EF5233 ;
+}
+.topbar_main .social-links i{
+  height: 36px;
+  width: 36px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d53111;
+}
+.phone_list{
+  display: flex!important;
+  flex-direction: column!important;
+}
+.header-top .social-links li.first {
+  margin-right: 10px;
+}
 .header-top .topbar_iconlist li i{
     color: #fff!important;
 }
@@ -19,9 +38,29 @@ Light: #ee4b2a #f69b89  #f9c3b8  #fdebe7
   width: 0px;
 }
 .main-header .outer-box .menu-area .mobile-nav-toggler{
-  background: #000;
+  background: #2F84E1;
 }
 
+.mobile-menu .nav-logo {
+  padding: 50px 25px 25px 25px!important;
+}
+.mobile-menu .nav-logo img{
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.mobile-menu .contact-info {
+  padding: 60px 30px 20px 30px;
+}
+.mobile-menu .social-links li a {
+  height: 36px;
+  width: 36px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d53111;
+}
 
 .banner-section .shape .shape-2.rotate-me{
   left: auto;
@@ -49,6 +88,21 @@ Light: #ee4b2a #f69b89  #f9c3b8  #fdebe7
   padding: 30px;
   border-radius: 6px;
 }
+.sec_btn_color{
+  width: fit-content;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #fff;
+  background: #EF5233;
+}
+.sec_btn_color:hover{
+  background: #a6260d;
+}
+
+.form_banner h3{
+  color: #EF5233;
+}
 .space_minimised .form-group{
   margin-bottom: 10px;
 }
@@ -60,7 +114,7 @@ Light: #ee4b2a #f69b89  #f9c3b8  #fdebe7
   height: 80px!important;
 }
 .banner_form_mobile{
-  background: rgb(231, 235, 231);
+  background: #fdf4f2;
   display: none;
   border-radius: 0!important;
 }
@@ -68,7 +122,9 @@ Light: #ee4b2a #f69b89  #f9c3b8  #fdebe7
   background: #FFF;
 }
 
-
+.slide_section{
+background:#fdebe7;
+}
 .clients-logo{
   background: #fff;
   border-radius: 4px;
@@ -203,6 +259,12 @@ border-radius: 5px;
 }
 .main-footer .footer-top {
   padding-bottom: 40px;
+}
+.sec_btn_color{
+  margin-left: 0px;
+}
+ .second_phone{
+  display: none!important;
 }
 }
 
