@@ -258,6 +258,18 @@ background: #ddeaf8;
   padding: 8px 15px;
 }
 
+.work_item{
+  margin-bottom: 30px;
+}
+.work_item h2{
+ background: #2F84E1;
+ color: #fff;
+ padding: 10px 20px;
+ font-size: 24px;
+}
+
+
+
 @media screen and (max-width: 1200px){
     .addresstop{
       display: none!important;
