@@ -268,6 +268,9 @@ background: #ddeaf8;
  font-size: 24px;
 }
 
+.image_block_three .service_page_img_box{
+  padding-right: 0!important;
+}
 
 
 @media screen and (max-width: 1200px){
@@ -302,6 +305,22 @@ background: #ddeaf8;
   .align_left_sm{
     text-align: left;
   }
+  .why_us_section .image-box {
+    display: none;
+  }
+  .why_us_section .inner-box{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .why_us_section .right-column{
+    margin-top: 50px;
+  }
+  .why_us_section .right-column .inner-box{
+    padding-left: 0px!important;
+    margin-left: 0px!important;
+  }
+  
 }
 
 @media screen and (max-width: 768px){
