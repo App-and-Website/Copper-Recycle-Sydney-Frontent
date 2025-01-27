@@ -14,6 +14,9 @@ Light: #ee4b2a #f69b89  #f9c3b8  #fdebe7
 .topbar_main{
   background: #EF5233 ;
 }
+.header-lower{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
 .topbar_main .social-links i{
   height: 36px;
   width: 36px;
@@ -247,7 +250,13 @@ background: #ddeaf8;
   width: 100%;
   border: 1px solid #ddd;
 }
-
+.blog_box{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 16px;
+}
+.blog_lower_content{
+  padding: 8px 15px;
+}
 
 @media screen and (max-width: 1200px){
     .addresstop{
