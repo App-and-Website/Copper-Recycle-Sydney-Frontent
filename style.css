@@ -114,7 +114,7 @@ Light: #ee4b2a #f69b89  #f9c3b8  #fdebe7
   height: 40px!important;
 }
 .space_minimised .form-group textarea{
-  height: 80px!important;
+  height: 120px!important;
 }
 .banner_form_mobile{
   background: #fdf4f2;
@@ -123,6 +123,12 @@ Light: #ee4b2a #f69b89  #f9c3b8  #fdebe7
 }
 .banner_form_mobile input, .banner_form_mobile textarea{
   background: #FFF;
+}
+.banner-carousel .content-box {
+  max-width: 800px!important;
+}
+.content_block_three .content-box .experience-inner {
+  padding: 16px 30px 16px 30px;
 }
 
 .slide_section{
@@ -152,7 +158,9 @@ margin-bottom: 30px;
 .content_box{
   margin-bottom: 25px;
 }
-
+.why_us_section .icon-box .icon i{
+  font-size: 50px!important;
+}
 .service-style-two, .working-section{
   padding: 80px 0;
 }
